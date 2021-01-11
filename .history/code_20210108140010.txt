@@ -1,0 +1,37 @@
+// $produks = [
+//     [
+//         'keterangan' => $keterangan1,
+//         'jumlah' => $jumlah1,
+//         'biaya' => $biaya1,
+//         'sub_total' => $sub_total1
+//     ],
+//     [
+//         'keterangan' => $keterangan2,
+//         'jumlah' => $jumlah2,
+//         'biaya' => $biaya2,
+//         'sub_total' => $sub_total2
+//     ],
+// ];
+
+// $data_get = [
+//     'id_rekam_medis' => $id_rekam_medis,
+//     'nama_hewan' => $nama_hewan,
+//     'pemilik' => $pemilik,
+//     'info' => $info,
+//     'produks' => $produks,
+//     'total_biaya' => $total_biaya,
+//     'telah_dibayarkan' => $telah_dibayarkan,
+//     'nama_penanda_tangan' => $nama_penanda_tangan,
+//     'status' => $status
+// ];
+
+// $query_get = http_build_query($data_get);
+
+// $url = "http://program.com/" . $query_get;
+
+// header("location: $url");
+
+// die($query);
+// $results = [];
+// parse_str($query, $results);
+// print_r($results);
